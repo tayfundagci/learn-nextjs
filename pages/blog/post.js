@@ -17,7 +17,6 @@ function post() {
         /> */}
       </Head>
       <h3>Post</h3>
-      <Link href="/">Geri Dön</Link>
     </>
   );
 }

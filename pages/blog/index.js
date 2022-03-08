@@ -7,8 +7,16 @@ function home() {
       <Head>
         <title>Blog</title>
       </Head>
-      <h3>Blog Page</h3>
-      <Link href="/">Geri Dön</Link>
+      <h3 style={{ textAlign: "center", fontSize: "30px", marginTop: "20px" }}>
+        Blog Page
+      </h3>
+
+      <style jsx>{`
+        h3 {
+          font-size: 20px;
+          font-weight: 500;
+        }
+      `}</style>
     </>
   );
 }

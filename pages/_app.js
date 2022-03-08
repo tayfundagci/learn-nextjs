@@ -1,10 +1,12 @@
 import React from "react";
 import "../public/styles/global.css";
+import Header from "../components/header";
 
 function App({ Component, pageProps }) {
   return (
     <>
-      <Component {...pageProps} />;
+      <Header />
+      <Component {...pageProps} />
     </>
   );
 }
